@@ -272,3 +272,6 @@ sudo systemctl status jenkins
 
 # Logs Docker
 docker logs jenkins
+# --------------------------------------------------
+
+Apres installation de junkins 
