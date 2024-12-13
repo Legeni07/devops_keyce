@@ -1,10 +1,10 @@
-version: '2'
+version: '3.1'
 services:
   jenkins:
-    image: sadofrazer/jenkins
+    image: jenkins/jenkins:lts
     restart: always
     ports:
-      - '8085:8080'
+      - '8185:8080'
       - '22000:22'
       - '50000:50000'
     privileged: true
